@@ -44,6 +44,8 @@ class TestActivity(sugar3.activity.activity.Activity):
         #no need of this --self.paused = False
 
         # Create the game instance.
+        
+
         self.game = TestGame.wormgame()
 
         # Build the activity toolbar.
